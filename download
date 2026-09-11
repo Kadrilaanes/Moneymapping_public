@@ -1,0 +1,20 @@
+# Secrets — these must never be committed.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pk8
+private.key
+public.crt
+
+node_modules/
+.next/
+*.log
+
+# Transaction exports / fixtures with real data
+/fixtures/*.csv
+!/fixtures/example.csv
+
+.vercel
+.env*
